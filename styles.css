@@ -1,0 +1,76 @@
+body, header, nav, main, footer, h1, div, img, h2, h3, figure, figcaption, article, fieldset, input, radio, textarea, legend, label {
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+
+body {
+  background-image: url("backwarm.jpg");
+  font-family: 'EB Garamond', serif;
+}
+img {
+  width: 100%;
+}
+nav {
+  background-color :crimson;
+}
+nav li {
+  font-size: 2em;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: bold;
+  padding: 0.25em;
+  color:black;
+}
+header {
+  top: 0;
+  border: 3px outset #2f4f4f;
+  background-color: #000;
+  font-size: 0.75em;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #008000;
+  text-align: center;
+}
+.bigcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: 50%;
+  float: left;
+}
+#buttons ul {
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+}
+
+#buttons li {
+  display: inline-block;
+  font-size: 1.20em;
+  font-family: 'EB Garamond', serif;
+  font-weight: bold;
+}
+
+#buttons li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border: 5px outset #800000;
+  background-color: #c0c0c0;
+  border-radius: 20px;
+}
+#buttons li a:hover {
+  color: #008000;
+  background-color: #000;
+  font-style: italic;
+}
+main {
+  background-color: #fff8dc;
+  padding: 2%;
+  font-size: 1.25em;
+  clear: left;
+  font-family: 'EB Garamond', serif;
+  text-align: center;
+}
